@@ -2465,7 +2465,9 @@ button.swiper-pagination-bullet {
   line-height: 1.55;
 }
 .footer-form__end {
+  display: flex;
   flex: 0 1 50%;
+  justify-content: end;
 }
 @media (max-width: 910.98px) {
   .footer-form__end {
@@ -2478,15 +2480,16 @@ button.swiper-pagination-bullet {
   background: #fff;
   border-radius: 60px;
   padding: 0.75rem;
+  max-width: 516px;
 }
 @media (max-width: 910.98px) {
   .footer-form__cont {
+    max-width: 100%;
     width: 100%;
     justify-content: space-between;
   }
 }
 .footer-form__input {
-  max-width: 331px;
   width: clamp( 13.75rem , 6.3495021529rem  +  11.9483315393vw , 20.6875rem );
   padding: 12px 0px 12px 16px;
   border-radius: 60px;
